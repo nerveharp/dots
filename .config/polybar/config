@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #66000000
+background = #000000
 background-alt = #000
 foreground = #FFF
 foreground-alt = #FFF
@@ -26,11 +26,11 @@ secondary = #000
 alert = #ff00dd
 
 [bar/example]
-width = 50%
-height = 32
-offset-x = 25%
-offset-y = 8px
-radius = 16px
+width = 100%
+height = 24
+offset-x = 0%
+offset-y = 0px
+radius = 0px
 fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -39,15 +39,15 @@ line-color = #FFF
 border-size = 0
 border-color = #FFF
 padding-left = 0
-padding-right = 0
-module-margin-left = 1
-module-margin-right = 2
-font-0 = Iosevka Nerd Font:pixelsize=10;3
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 4
+font-0 = Terminus:pixelsize=8;1
 modules-left = 
-modules-center = filesystem backlight-acpi pulseaudio memory cpu wlan eth battery1 battery0 temperature date
-modules-right = 
+modules-center = 
+modules-right = battery1 battery0 temperature date 
 tray-position = right
-tray-padding = 2
+tray-padding = 4 
 cursor-click = pointer
 cursor-scroll = ns-resize
 enable-ipc = true
@@ -159,25 +159,25 @@ type = internal/battery
 battery = BAT0
 adapter = AC
 full-at = 98
-format-charging =  <label-charging>
-format-discharging =  <label-discharging>
-format-full-prefix = " "
+format-charging = BAT0+ <label-charging>
+format-discharging = BAT0- <label-discharging>
+format-full-prefix = "BAT0 "
 
 [module/battery1]
 type = internal/battery
 battery = BAT1
 adapter = AC
 full-at = 98
-format-charging =  <label-charging>
-format-discharging =  <label-discharging>
-format-full-prefix = " "
+format-charging = BAT1+ <label-charging>
+format-discharging = BAT1- <label-discharging>
+format-full-prefix = "BAT1 "
 
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
-format = ﰕ  <label>
-format-warn =   <label-warn>
+format = TEMP <label>
+format-warn = TEAMP! <label-warn>
 label = %temperature-c%
 label-warn = %temperature-c%
 

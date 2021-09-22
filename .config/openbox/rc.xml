@@ -58,8 +58,8 @@
     <keepBorder>no</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -67,8 +67,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -76,8 +76,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -85,8 +85,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -94,8 +94,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -103,8 +103,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Iosevka</name>
-      <size>10</size>
+      <name>Terminus</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -154,10 +154,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>48</top>
-    <bottom>16</bottom>
-    <left>16</left>
-    <right>16</right>
+    <top>24</top>
+    <bottom>0</bottom>
+    <left>0</left>
+    <right>0</right>
   </margins>
   <dock>
     <position>TopLeft</position>
