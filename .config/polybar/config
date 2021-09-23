@@ -43,7 +43,7 @@ padding-right = 2
 module-margin-left = 0
 module-margin-right = 4
 font-0 = Terminus:pixelsize=8;1
-modules-left = 
+modules-left = rofi
 modules-center = 
 modules-right = battery1 battery0 temperature date 
 tray-position = right
@@ -193,3 +193,10 @@ pseudo-transparency = true
 margin-top = 0
 margin-bottom = 0
 
+[module/rofi]
+type = custom/text
+content = >_
+content-padding = 2
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+click-left = exec rofi -show run -display-run ">_"
