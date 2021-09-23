@@ -32,7 +32,7 @@ listview {
 entry {
     expand:     false;
     width:      10em;
-    padding:    0px 0px 0px 6px;
+    padding:    1px 0px 0px 6px;
 }
 element {
     padding: 2px 2px;
